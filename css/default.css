@@ -1,0 +1,264 @@
+html,body {
+    width: 100%;
+}
+
+@font-face {
+    font-family: roboto slab;
+}
+
+.container1 {
+    width: 1100px;
+    height: 2000px;
+    position: relative;
+    left: 50%;
+    margin-left: -550px;
+}
+
+#fireworks {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 1200px;
+    height: 1px;
+    margin-left: -65px;
+    margin-top: 10px;
+}
+
+/* fireworks animation keyframes start */
+
+@-webkit-keyframes fire_one {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    50% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#fire_1 {
+    position: absolute;
+    left: 2px;
+    top: 0px;
+    width: 1200px;
+    opacity: 0;
+    z-index: 3;
+    -webkit-animation: fire_one 3s infinite;
+}
+
+@-webkit-keyframes fire_two {
+    0% { opacity: 0; }
+    25% { opacity: 0; }
+    50% { opacity: 1; }
+    75% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#fire_2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    z-index: 2;
+    -webkit-animation: fire_two 3s infinite;
+}
+
+@-webkit-keyframes fire_three {
+    0% { opacity: 1; }
+    25% { opacity: 0; }
+    50% { opacity: 0; }
+    75% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+#fire_3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    z-index: 1;
+    -webkit-animation: fire_three 3s infinite;
+}
+
+/* fireworks animation keyframes end */
+
+/* header animation keyframes start */
+
+@-webkit-keyframes header_one {
+    0% { opacity: 1; }
+    20% { opacity: 0; }
+    40% { opacity: 0; }
+    60% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#header_1 {
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    opacity: 1;
+    -webkit-animation: header_one 6s infinite;
+}
+
+@-webkit-keyframes header_two {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    40% { opacity: 0; }
+    60% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#header_2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -webkit-animation: header_two 6s infinite;
+}
+
+@-webkit-keyframes header_three {
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    40% { opacity: 1; }
+    60% { opacity: 0; }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#header_3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -webkit-animation: header_three 6s infinite;
+}
+
+@-webkit-keyframes header_four {
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    40% { opacity: 0; }
+    60% { opacity: 1; }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#header_4 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -webkit-animation: header_four 6s infinite;
+}
+
+@-webkit-keyframes header_five {
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    40% { opacity: 0; }
+    60% { opacity: 0; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+#header_5 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -webkit-animation: header_five 6s infinite;
+}
+
+/* header animation keyframes end */
+
+#header {
+    height: 100px;
+    position: relative;
+    top: 200px;
+    margin-left: 110px;
+    margin-top: -40px;
+}
+
+#ticket {
+    position: relative;
+    margin-left: 430px;
+    margin-top: -40px;
+}
+
+#banner {
+    position: relative;
+    top: 200px;
+    left: 0px;
+    margin-left: 275px;
+    margin-top: -20px;
+}
+
+#arrow {
+    position: absolute;
+    margin-left: 525px;
+    margin-top: 400px;
+    -webkit-animation: move 1s infinite linear;
+}
+
+@-webkit-keyframes move {
+    0%,100% { top: 260px; left: 0px;}
+    50% { top: 270px; left: 0px;}
+
+}
+
+
+.container2 {
+    width: 200px;
+    margin-top: -1200px;
+    margin-left: 1750px;
+}
+
+#info {
+    font-family: roboto slab;
+    color: white;
+    line-height: 1.5em;
+    text-align: center;
+    margin-top: -1470px;
+    margin-left: 390px;
+    width: 600px;
+    font-size: 12px;
+    letter-spacing: .1em;
+    position: absolute;
+}
+
+#headliner1 {
+    position: relative;
+    margin-left: -200px;
+    margin-top: 450px;
+}
+
+#headliner2 {
+    position: relative;
+    margin-left: 500px;
+    margin-top: -400px;
+}
+
+#headliner3 {
+    position: relative;
+    margin-left: -200px;
+    margin-top: -350px;
+}
+
+#headliner4 {
+    position: relative;
+    margin-left: 510px;
+    margin-top: -400px;
+}
+
+
+#blue {
+    background: url(../images/background-06.png) center center;
+    background-position: 0px 0px;
+    background-size: 100%;
+    width: 100%;
+    height: 8000px;
+    position: absolute;
+    top: 500px;
+    z-index: -1;
+    opacity: 60%;
+    background-repeat: no-repeat;
+    margin-top: -15px;
+}
